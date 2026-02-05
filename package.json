@@ -16,7 +16,6 @@
   "author": "Guillaume Briday <guillaumebriday@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/stimulus-components/stimulus-sortable",
-  "private": false,
   "publishConfig": {
     "access": "public"
   },
@@ -65,5 +64,6 @@
     "@hotwired/stimulus": "^3.0.0",
     "@rails/request.js": "^0.0.8",
     "sortablejs": "^1.15.0"
-  }
+  },
+  "packageManager": "yarn@4.12.0"
 }

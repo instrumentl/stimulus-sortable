@@ -16,7 +16,6 @@
   "author": "Guillaume Briday <guillaumebriday@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/stimulus-components/stimulus-sortable",
-  "private": false,
   "publishConfig": {
     "access": "public"
   },

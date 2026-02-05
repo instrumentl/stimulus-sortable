@@ -65,5 +65,6 @@
     "@hotwired/stimulus": "^3.0.0",
     "@rails/request.js": "^0.0.8",
     "sortablejs": "^1.15.0"
-  }
+  },
+  "packageManager": "yarn@4.12.0"
 }

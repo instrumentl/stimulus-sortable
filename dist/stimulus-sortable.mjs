@@ -15,8 +15,7 @@ const _StimulusSortable = class _StimulusSortable extends Controller {
     Sortable.active || this.sortable.destroy(), this.sortable = void 0;
   }
   async onUpdate({ item, newIndex }) {
-    if (!item.dataset.sortableUpdateUrl)
-      return;
+    if (!item.dataset.sortableUpdateUrl) return;
     const param = this.resourceNameValue ? `${this.resourceNameValue}[${this.paramNameValue}]` : this.paramNameValue, data = new FormData();
     return data.append(param, newIndex + 1), await patch(item.dataset.sortableUpdateUrl, { body: data, responseKind: this.responseKindValue });
   }

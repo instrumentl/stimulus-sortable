@@ -33,7 +33,7 @@
     "np": "np --no-2fa --no-tests"
   },
   "devDependencies": {
-    "@babel/core": "7.24.3",
+    "@babel/core": "7.29.6",
     "@babel/polyfill": "7.12.1",
     "@babel/preset-env": "7.24.3",
     "@babel/preset-typescript": "7.24.1",
